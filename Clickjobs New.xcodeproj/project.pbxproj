@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F351C4927FC468D0032D351 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F351C4727FC468D0032D351 /* SettingsVC.swift */; };
+		7F351C4A27FC468D0032D351 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F351C4827FC468D0032D351 /* SettingsVC.xib */; };
+		946866A127F0735B005DDE17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866A027F0735B005DDE17 /* AppDelegate.swift */; };
+		946866AA27F0735C005DDE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946866A927F0735C005DDE17 /* Assets.xcassets */; };
+		946866AD27F0735C005DDE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946866AB27F0735C005DDE17 /* LaunchScreen.storyboard */; };
+		946866DC27F084FF005DDE17 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866D827F084FF005DDE17 /* ProfileVC.swift */; };
+		946866DD27F084FF005DDE17 /* EditVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946866D927F084FF005DDE17 /* EditVC.xib */; };
+		946866DE27F084FF005DDE17 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946866DA27F084FF005DDE17 /* ProfileVC.xib */; };
+		946866DF27F084FF005DDE17 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866DB27F084FF005DDE17 /* EditVC.swift */; };
+		946866F127F08512005DDE17 /* EmployeeMainTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866EA27F08512005DDE17 /* EmployeeMainTBC.swift */; };
+		946866F227F08512005DDE17 /* VacanciesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946866EB27F08512005DDE17 /* VacanciesVC.xib */; };
+		946866F327F08512005DDE17 /* VacanciesDesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946866EC27F08512005DDE17 /* VacanciesDesVC.xib */; };
+		946866F427F08512005DDE17 /* VacanciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866ED27F08512005DDE17 /* VacanciesVC.swift */; };
+		946866F627F08512005DDE17 /* VacanciesDesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866EF27F08512005DDE17 /* VacanciesDesVC.swift */; };
+		946866FF27F08519005DDE17 /* ResumeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946866FA27F08519005DDE17 /* ResumeVC.swift */; };
+		9468670227F08519005DDE17 /* ResumeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 946866FD27F08519005DDE17 /* ResumeVC.xib */; };
+		9468671027F08520005DDE17 /* EmployessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468670527F08520005DDE17 /* EmployessVC.swift */; };
+		9468671127F08520005DDE17 /* EmployessTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468670627F08520005DDE17 /* EmployessTVC.xib */; };
+		9468671427F08520005DDE17 /* EmployessDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468670927F08520005DDE17 /* EmployessDetailVC.swift */; };
+		9468671727F08520005DDE17 /* EmployessDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468670C27F08520005DDE17 /* EmployessDetailVC.xib */; };
+		9468671827F08520005DDE17 /* EmployessTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468670D27F08520005DDE17 /* EmployessTVC.swift */; };
+		9468671927F08520005DDE17 /* EmployessVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468670E27F08520005DDE17 /* EmployessVC.xib */; };
+		9468672A27F0852E005DDE17 /* WalkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468672427F0852E005DDE17 /* WalkVC.swift */; };
+		9468672B27F0852E005DDE17 /* WalkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468672527F0852E005DDE17 /* WalkVC.xib */; };
+		9468672C27F0852E005DDE17 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468672627F0852E005DDE17 /* SignInVC.swift */; };
+		9468672D27F0852E005DDE17 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468672727F0852E005DDE17 /* SignUpVC.swift */; };
+		9468672E27F0852E005DDE17 /* SignInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468672827F0852E005DDE17 /* SignInVC.xib */; };
+		9468672F27F0852E005DDE17 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468672927F0852E005DDE17 /* SignUpVC.xib */; };
+		9468674027F08674005DDE17 /* LanguagesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468673A27F08674005DDE17 /* LanguagesVC.xib */; };
+		9468674127F08674005DDE17 /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468673B27F08674005DDE17 /* NotificationsVC.swift */; };
+		9468674227F08674005DDE17 /* LanguagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468673C27F08674005DDE17 /* LanguagesVC.swift */; };
+		9468674327F08674005DDE17 /* NotificationsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468673D27F08674005DDE17 /* NotificationsVC.xib */; };
+		9468674427F08674005DDE17 /* PasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9468673E27F08674005DDE17 /* PasswordVC.xib */; };
+		9468674527F08674005DDE17 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468673F27F08674005DDE17 /* PasswordVC.swift */; };
+		9468674927F0886F005DDE17 /* GeneralTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468674727F0886F005DDE17 /* GeneralTextField.swift */; };
+		9468674B27F08897005DDE17 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468674A27F08897005DDE17 /* Colors.swift */; };
+		9468675427F09ACC005DDE17 /* Fire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9468675327F09ACC005DDE17 /* Fire.swift */; };
+		94F1B4E427F0E2CA00D1148C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B4E327F0E2CA00D1148C /* GoogleService-Info.plist */; };
+		94F1B4E627F0E51C00D1148C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4E527F0E51C00D1148C /* User.swift */; };
+		94F1B4E827F0E55500D1148C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4E727F0E55500D1148C /* Cache.swift */; };
+		94F1B4EA27F0E58B00D1148C /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4E927F0E58B00D1148C /* Keys.swift */; };
+		94F1B4EF27F0EA2700D1148C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4EE27F0EA2700D1148C /* Alert.swift */; };
+		94F1B4F027F0EA2700D1148C /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4ED27F0EA2700D1148C /* Loader.swift */; };
+		94F1B4F227F0EAFA00D1148C /* load.json in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B4F127F0EAF900D1148C /* load.json */; };
+		94F1B4F427F0F18800D1148C /* EmployerMainTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4F327F0F18800D1148C /* EmployerMainTBC.swift */; };
+		94F1B4FB27F0F2CD00D1148C /* AddVacancyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4F927F0F2CD00D1148C /* AddVacancyVC.swift */; };
+		94F1B4FC27F0F2CD00D1148C /* AddVacancyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94F1B4FA27F0F2CD00D1148C /* AddVacancyVC.xib */; };
+		94F1B4FE27F0F5C100D1148C /* Vacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F1B4FD27F0F5C100D1148C /* Vacancy.swift */; };
+		B7B0EB6B8A05129DB0E6FCD5 /* Pods_Clickjobs_New.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DE3BBA8F5AB0EF5ADC76B3 /* Pods_Clickjobs_New.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F351C4727FC468D0032D351 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		7F351C4827FC468D0032D351 /* SettingsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		92DE3BBA8F5AB0EF5ADC76B3 /* Pods_Clickjobs_New.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clickjobs_New.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9468669D27F0735B005DDE17 /* Clickjobs New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clickjobs New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		946866A027F0735B005DDE17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		946866A927F0735C005DDE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		946866AC27F0735C005DDE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		946866AE27F0735C005DDE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		946866D827F084FF005DDE17 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		946866D927F084FF005DDE17 /* EditVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditVC.xib; sourceTree = "<group>"; };
+		946866DA27F084FF005DDE17 /* ProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		946866DB27F084FF005DDE17 /* EditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		946866EA27F08512005DDE17 /* EmployeeMainTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeMainTBC.swift; sourceTree = "<group>"; };
+		946866EB27F08512005DDE17 /* VacanciesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VacanciesVC.xib; sourceTree = "<group>"; };
+		946866EC27F08512005DDE17 /* VacanciesDesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VacanciesDesVC.xib; sourceTree = "<group>"; };
+		946866ED27F08512005DDE17 /* VacanciesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacanciesVC.swift; sourceTree = "<group>"; };
+		946866EF27F08512005DDE17 /* VacanciesDesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacanciesDesVC.swift; sourceTree = "<group>"; };
+		946866FA27F08519005DDE17 /* ResumeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumeVC.swift; sourceTree = "<group>"; };
+		946866FD27F08519005DDE17 /* ResumeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResumeVC.xib; sourceTree = "<group>"; };
+		9468670527F08520005DDE17 /* EmployessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployessVC.swift; sourceTree = "<group>"; };
+		9468670627F08520005DDE17 /* EmployessTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployessTVC.xib; sourceTree = "<group>"; };
+		9468670927F08520005DDE17 /* EmployessDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployessDetailVC.swift; sourceTree = "<group>"; };
+		9468670C27F08520005DDE17 /* EmployessDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployessDetailVC.xib; sourceTree = "<group>"; };
+		9468670D27F08520005DDE17 /* EmployessTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployessTVC.swift; sourceTree = "<group>"; };
+		9468670E27F08520005DDE17 /* EmployessVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployessVC.xib; sourceTree = "<group>"; };
+		9468672427F0852E005DDE17 /* WalkVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkVC.swift; sourceTree = "<group>"; };
+		9468672527F0852E005DDE17 /* WalkVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalkVC.xib; sourceTree = "<group>"; };
+		9468672627F0852E005DDE17 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		9468672727F0852E005DDE17 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		9468672827F0852E005DDE17 /* SignInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInVC.xib; sourceTree = "<group>"; };
+		9468672927F0852E005DDE17 /* SignUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		9468673A27F08674005DDE17 /* LanguagesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanguagesVC.xib; sourceTree = "<group>"; };
+		9468673B27F08674005DDE17 /* NotificationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
+		9468673C27F08674005DDE17 /* LanguagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguagesVC.swift; sourceTree = "<group>"; };
+		9468673D27F08674005DDE17 /* NotificationsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsVC.xib; sourceTree = "<group>"; };
+		9468673E27F08674005DDE17 /* PasswordVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PasswordVC.xib; sourceTree = "<group>"; };
+		9468673F27F08674005DDE17 /* PasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		9468674727F0886F005DDE17 /* GeneralTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTextField.swift; sourceTree = "<group>"; };
+		9468674A27F08897005DDE17 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		9468675327F09ACC005DDE17 /* Fire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fire.swift; sourceTree = "<group>"; };
+		94F1B4E327F0E2CA00D1148C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94F1B4E527F0E51C00D1148C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94F1B4E727F0E55500D1148C /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		94F1B4E927F0E58B00D1148C /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		94F1B4ED27F0EA2700D1148C /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		94F1B4EE27F0EA2700D1148C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		94F1B4F127F0EAF900D1148C /* load.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load.json; sourceTree = "<group>"; };
+		94F1B4F327F0F18800D1148C /* EmployerMainTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerMainTBC.swift; sourceTree = "<group>"; };
+		94F1B4F927F0F2CD00D1148C /* AddVacancyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVacancyVC.swift; sourceTree = "<group>"; };
+		94F1B4FA27F0F2CD00D1148C /* AddVacancyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddVacancyVC.xib; sourceTree = "<group>"; };
+		94F1B4FD27F0F5C100D1148C /* Vacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacancy.swift; sourceTree = "<group>"; };
+		A57B50C32F07D162D2FBFAFE /* Pods-Clickjobs New.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clickjobs New.release.xcconfig"; path = "Target Support Files/Pods-Clickjobs New/Pods-Clickjobs New.release.xcconfig"; sourceTree = "<group>"; };
+		A697295CF21E15089DCDE860 /* Pods-Clickjobs New.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clickjobs New.debug.xcconfig"; path = "Target Support Files/Pods-Clickjobs New/Pods-Clickjobs New.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9468669A27F0735B005DDE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B0EB6B8A05129DB0E6FCD5 /* Pods_Clickjobs_New.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F351C4B27FC48FE0032D351 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7F351C4727FC468D0032D351 /* SettingsVC.swift */,
+				9468673F27F08674005DDE17 /* PasswordVC.swift */,
+				9468673B27F08674005DDE17 /* NotificationsVC.swift */,
+				9468673C27F08674005DDE17 /* LanguagesVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7F351C4C27FC49110032D351 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7F351C4827FC468D0032D351 /* SettingsVC.xib */,
+				9468673E27F08674005DDE17 /* PasswordVC.xib */,
+				9468673D27F08674005DDE17 /* NotificationsVC.xib */,
+				9468673A27F08674005DDE17 /* LanguagesVC.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9468669427F0735A005DDE17 = {
+			isa = PBXGroup;
+			children = (
+				9468669F27F0735B005DDE17 /* Clickjobs New */,
+				9468669E27F0735B005DDE17 /* Products */,
+				EC51668AE926B90D7FAB9601 /* Pods */,
+				C9EADFEB8D854AC0CD645A1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9468669E27F0735B005DDE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9468669D27F0735B005DDE17 /* Clickjobs New.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9468669F27F0735B005DDE17 /* Clickjobs New */ = {
+			isa = PBXGroup;
+			children = (
+				94F1B4E327F0E2CA00D1148C /* GoogleService-Info.plist */,
+				9468675127F098E7005DDE17 /* Model */,
+				9468675027F098E0005DDE17 /* View */,
+				9468674F27F098BB005DDE17 /* Controller */,
+				9468674D27F08C94005DDE17 /* Helpers */,
+				946866A927F0735C005DDE17 /* Assets.xcassets */,
+				946866AB27F0735C005DDE17 /* LaunchScreen.storyboard */,
+				946866AE27F0735C005DDE17 /* Info.plist */,
+			);
+			path = "Clickjobs New";
+			sourceTree = "<group>";
+		};
+		9468674D27F08C94005DDE17 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94F1B4F127F0EAF900D1148C /* load.json */,
+				94F1B4EE27F0EA2700D1148C /* Alert.swift */,
+				94F1B4ED27F0EA2700D1148C /* Loader.swift */,
+				9468674A27F08897005DDE17 /* Colors.swift */,
+				9468674727F0886F005DDE17 /* GeneralTextField.swift */,
+				9468675327F09ACC005DDE17 /* Fire.swift */,
+				94F1B4E727F0E55500D1148C /* Cache.swift */,
+				94F1B4E927F0E58B00D1148C /* Keys.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9468674E27F093B3005DDE17 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9468670D27F08520005DDE17 /* EmployessTVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9468674F27F098BB005DDE17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				946866A027F0735B005DDE17 /* AppDelegate.swift */,
+				94F1B4F827F0F23500D1148C /* Employer */,
+				94F1B4F727F0F22C00D1148C /* Employee */,
+				7F351C4B27FC48FE0032D351 /* Settings */,
+				9468674E27F093B3005DDE17 /* Cells */,
+				9468672427F0852E005DDE17 /* WalkVC.swift */,
+				9468672627F0852E005DDE17 /* SignInVC.swift */,
+				9468672727F0852E005DDE17 /* SignUpVC.swift */,
+				9468670927F08520005DDE17 /* EmployessDetailVC.swift */,
+				946866FA27F08519005DDE17 /* ResumeVC.swift */,
+				946866D827F084FF005DDE17 /* ProfileVC.swift */,
+				946866DB27F084FF005DDE17 /* EditVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9468675027F098E0005DDE17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94ABC52D2811088D009A51AD /* Employee */,
+				94F1B4F627F0F22600D1148C /* Employer */,
+				7F351C4C27FC49110032D351 /* Settings */,
+				9468675227F09918005DDE17 /* Cells */,
+				9468672527F0852E005DDE17 /* WalkVC.xib */,
+				9468672827F0852E005DDE17 /* SignInVC.xib */,
+				9468672927F0852E005DDE17 /* SignUpVC.xib */,
+				9468670C27F08520005DDE17 /* EmployessDetailVC.xib */,
+				946866FD27F08519005DDE17 /* ResumeVC.xib */,
+				946866DA27F084FF005DDE17 /* ProfileVC.xib */,
+				946866D927F084FF005DDE17 /* EditVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9468675127F098E7005DDE17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94F1B4E527F0E51C00D1148C /* User.swift */,
+				94F1B4FD27F0F5C100D1148C /* Vacancy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9468675227F09918005DDE17 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9468670627F08520005DDE17 /* EmployessTVC.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		94ABC52D2811088D009A51AD /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				946866EB27F08512005DDE17 /* VacanciesVC.xib */,
+				946866EC27F08512005DDE17 /* VacanciesDesVC.xib */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		94F1B4F627F0F22600D1148C /* Employer */ = {
+			isa = PBXGroup;
+			children = (
+				9468670E27F08520005DDE17 /* EmployessVC.xib */,
+				94F1B4FA27F0F2CD00D1148C /* AddVacancyVC.xib */,
+			);
+			path = Employer;
+			sourceTree = "<group>";
+		};
+		94F1B4F727F0F22C00D1148C /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				946866EA27F08512005DDE17 /* EmployeeMainTBC.swift */,
+				946866ED27F08512005DDE17 /* VacanciesVC.swift */,
+				946866EF27F08512005DDE17 /* VacanciesDesVC.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		94F1B4F827F0F23500D1148C /* Employer */ = {
+			isa = PBXGroup;
+			children = (
+				94F1B4F327F0F18800D1148C /* EmployerMainTBC.swift */,
+				9468670527F08520005DDE17 /* EmployessVC.swift */,
+				94F1B4F927F0F2CD00D1148C /* AddVacancyVC.swift */,
+			);
+			path = Employer;
+			sourceTree = "<group>";
+		};
+		C9EADFEB8D854AC0CD645A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92DE3BBA8F5AB0EF5ADC76B3 /* Pods_Clickjobs_New.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC51668AE926B90D7FAB9601 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A697295CF21E15089DCDE860 /* Pods-Clickjobs New.debug.xcconfig */,
+				A57B50C32F07D162D2FBFAFE /* Pods-Clickjobs New.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9468669C27F0735B005DDE17 /* Clickjobs New */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 946866B127F0735C005DDE17 /* Build configuration list for PBXNativeTarget "Clickjobs New" */;
+			buildPhases = (
+				B51F1D6EC1FCD14F0B275EBC /* [CP] Check Pods Manifest.lock */,
+				9468669927F0735B005DDE17 /* Sources */,
+				9468669A27F0735B005DDE17 /* Frameworks */,
+				9468669B27F0735B005DDE17 /* Resources */,
+				40274EE6DB4643A66C269454 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clickjobs New";
+			productName = "Clickjobs New";
+			productReference = 9468669D27F0735B005DDE17 /* Clickjobs New.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9468669527F0735A005DDE17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9468669C27F0735B005DDE17 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 9468669827F0735A005DDE17 /* Build configuration list for PBXProject "Clickjobs New" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9468669427F0735A005DDE17;
+			productRefGroup = 9468669E27F0735B005DDE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9468669C27F0735B005DDE17 /* Clickjobs New */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9468669B27F0735B005DDE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9468672E27F0852E005DDE17 /* SignInVC.xib in Resources */,
+				946866AD27F0735C005DDE17 /* LaunchScreen.storyboard in Resources */,
+				946866F227F08512005DDE17 /* VacanciesVC.xib in Resources */,
+				946866DD27F084FF005DDE17 /* EditVC.xib in Resources */,
+				9468670227F08519005DDE17 /* ResumeVC.xib in Resources */,
+				9468671127F08520005DDE17 /* EmployessTVC.xib in Resources */,
+				94F1B4FC27F0F2CD00D1148C /* AddVacancyVC.xib in Resources */,
+				9468671727F08520005DDE17 /* EmployessDetailVC.xib in Resources */,
+				946866DE27F084FF005DDE17 /* ProfileVC.xib in Resources */,
+				7F351C4A27FC468D0032D351 /* SettingsVC.xib in Resources */,
+				9468674427F08674005DDE17 /* PasswordVC.xib in Resources */,
+				9468671927F08520005DDE17 /* EmployessVC.xib in Resources */,
+				9468672F27F0852E005DDE17 /* SignUpVC.xib in Resources */,
+				946866AA27F0735C005DDE17 /* Assets.xcassets in Resources */,
+				94F1B4E427F0E2CA00D1148C /* GoogleService-Info.plist in Resources */,
+				94F1B4F227F0EAFA00D1148C /* load.json in Resources */,
+				9468672B27F0852E005DDE17 /* WalkVC.xib in Resources */,
+				946866F327F08512005DDE17 /* VacanciesDesVC.xib in Resources */,
+				9468674027F08674005DDE17 /* LanguagesVC.xib in Resources */,
+				9468674327F08674005DDE17 /* NotificationsVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40274EE6DB4643A66C269454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clickjobs New/Pods-Clickjobs New-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clickjobs New/Pods-Clickjobs New-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clickjobs New/Pods-Clickjobs New-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B51F1D6EC1FCD14F0B275EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clickjobs New-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9468669927F0735B005DDE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				946866DC27F084FF005DDE17 /* ProfileVC.swift in Sources */,
+				9468674227F08674005DDE17 /* LanguagesVC.swift in Sources */,
+				946866A127F0735B005DDE17 /* AppDelegate.swift in Sources */,
+				94F1B4EF27F0EA2700D1148C /* Alert.swift in Sources */,
+				9468674927F0886F005DDE17 /* GeneralTextField.swift in Sources */,
+				946866FF27F08519005DDE17 /* ResumeVC.swift in Sources */,
+				9468672D27F0852E005DDE17 /* SignUpVC.swift in Sources */,
+				9468672C27F0852E005DDE17 /* SignInVC.swift in Sources */,
+				94F1B4FE27F0F5C100D1148C /* Vacancy.swift in Sources */,
+				94F1B4FB27F0F2CD00D1148C /* AddVacancyVC.swift in Sources */,
+				94F1B4E827F0E55500D1148C /* Cache.swift in Sources */,
+				946866F627F08512005DDE17 /* VacanciesDesVC.swift in Sources */,
+				94F1B4F427F0F18800D1148C /* EmployerMainTBC.swift in Sources */,
+				7F351C4927FC468D0032D351 /* SettingsVC.swift in Sources */,
+				946866F427F08512005DDE17 /* VacanciesVC.swift in Sources */,
+				9468671027F08520005DDE17 /* EmployessVC.swift in Sources */,
+				9468671827F08520005DDE17 /* EmployessTVC.swift in Sources */,
+				9468674527F08674005DDE17 /* PasswordVC.swift in Sources */,
+				94F1B4F027F0EA2700D1148C /* Loader.swift in Sources */,
+				946866DF27F084FF005DDE17 /* EditVC.swift in Sources */,
+				94F1B4E627F0E51C00D1148C /* User.swift in Sources */,
+				94F1B4EA27F0E58B00D1148C /* Keys.swift in Sources */,
+				9468671427F08520005DDE17 /* EmployessDetailVC.swift in Sources */,
+				9468674B27F08897005DDE17 /* Colors.swift in Sources */,
+				9468674127F08674005DDE17 /* NotificationsVC.swift in Sources */,
+				946866F127F08512005DDE17 /* EmployeeMainTBC.swift in Sources */,
+				9468675427F09ACC005DDE17 /* Fire.swift in Sources */,
+				9468672A27F0852E005DDE17 /* WalkVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		946866AB27F0735C005DDE17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946866AC27F0735C005DDE17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		946866AF27F0735C005DDE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		946866B027F0735C005DDE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		946866B227F0735C005DDE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A697295CF21E15089DCDE860 /* Pods-Clickjobs New.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4PP343Y28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clickjobs New/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Clickjobs;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rndd.uz.Clickjobs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		946866B327F0735C005DDE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57B50C32F07D162D2FBFAFE /* Pods-Clickjobs New.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4PP343Y28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clickjobs New/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Clickjobs;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rndd.uz.Clickjobs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9468669827F0735A005DDE17 /* Build configuration list for PBXProject "Clickjobs New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946866AF27F0735C005DDE17 /* Debug */,
+				946866B027F0735C005DDE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		946866B127F0735C005DDE17 /* Build configuration list for PBXNativeTarget "Clickjobs New" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				946866B227F0735C005DDE17 /* Debug */,
+				946866B327F0735C005DDE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9468669527F0735A005DDE17 /* Project object */;
+}

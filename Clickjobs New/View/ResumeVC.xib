@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ResumeVC" customModule="Clickjobs_New" customModuleProvider="target">
+            <connections>
+                <outlet property="categoryBtn" destination="mIl-nb-1PR" id="aLt-Vn-pt1"/>
+                <outlet property="createBtn" destination="VRG-yj-DlA" id="gi8-Jb-YEf"/>
+                <outlet property="descriptionVieww" destination="5dx-hz-9WK" id="fkY-fm-YS1"/>
+                <outlet property="expertBtn" destination="OIg-aY-4ga" id="d2i-nl-hGj"/>
+                <outlet property="scrolllView" destination="A2X-uX-52Z" id="odL-Eq-EeW"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2X-uX-52Z">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIT-2S-nYU">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="646"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="JdL-5y-4ZK">
+                                    <rect key="frame" x="16" y="30" width="382" height="260"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mIl-nb-1PR" customClass="SSNeumorphicButton" customModule="SSNeumorphicView">
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="53"/>
+                                            <color key="backgroundColor" red="0.89803916220000002" green="0.89803916220000002" blue="0.89803916220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="53" id="Kll-7o-9jD"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                            <color key="tintColor" red="0.6705883145" green="0.67058825489999996" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <inset key="imageEdgeInsets" minX="355" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="    Job category" image="chevron.right" catalog="system">
+                                                <color key="titleColor" red="0.72944968939999999" green="0.72934919600000003" blue="0.73333388570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="jobCategoryPressed:" destination="-1" eventType="touchUpInside" id="KCy-ur-0IM"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIg-aY-4ga" customClass="SSNeumorphicButton" customModule="SSNeumorphicView">
+                                            <rect key="frame" x="0.0" y="69" width="382" height="53"/>
+                                            <color key="backgroundColor" red="0.89803916220000002" green="0.89803916220000002" blue="0.89803916220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                            <color key="tintColor" red="0.6705883145" green="0.67058825489999996" blue="0.67058825489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <inset key="imageEdgeInsets" minX="355" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="    Job expertise" image="chevron.right" catalog="system">
+                                                <color key="titleColor" red="0.72944968939999999" green="0.72934919600000003" blue="0.73333388570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="semibold"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="jobExpertisePressed:" destination="-1" eventType="touchUpInside" id="NqO-y2-4O4"/>
+                                            </connections>
+                                        </button>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Workplace" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uDJ-xE-xmN" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="138" width="382" height="53"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Experience Duration" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="771-EA-hAk" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="207" width="382" height="53"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5dx-hz-9WK" customClass="SSNeumorphicView" customModule="SSNeumorphicView">
+                                    <rect key="frame" x="16" y="305" width="382" height="208"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Brief description about your experience " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aiZ-EX-m2r">
+                                            <rect key="frame" x="15" y="10" width="352" height="188"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="textColor" red="0.66670459510000002" green="0.66660404210000002" blue="0.67058885099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="aiZ-EX-m2r" firstAttribute="top" secondItem="5dx-hz-9WK" secondAttribute="top" constant="10" id="12q-td-f2r"/>
+                                        <constraint firstAttribute="bottom" secondItem="aiZ-EX-m2r" secondAttribute="bottom" constant="10" id="7rw-gS-wyV"/>
+                                        <constraint firstAttribute="trailing" secondItem="aiZ-EX-m2r" secondAttribute="trailing" constant="15" id="fAd-mZ-hIz"/>
+                                        <constraint firstAttribute="height" constant="208" id="fw7-Wc-wR6"/>
+                                        <constraint firstItem="aiZ-EX-m2r" firstAttribute="leading" secondItem="5dx-hz-9WK" secondAttribute="leading" constant="15" id="r33-3n-BDo"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRG-yj-DlA">
+                                    <rect key="frame" x="16" y="573" width="382" height="58"/>
+                                    <color key="backgroundColor" red="0.85558915140000003" green="0.3340352774" blue="0.32546454670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="58" id="yw9-u0-i13"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Create">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="13"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="createPressed:" destination="-1" eventType="touchUpInside" id="FbY-yB-54f"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ct-6x-xuB">
+                                    <rect key="frame" x="275" y="521" width="123" height="42"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="+ Add a workplace">
+                                        <color key="titleColor" systemColor="systemRedColor"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addPressed:" destination="-1" eventType="touchUpInside" id="NoW-rc-I6N"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.89803916220000002" green="0.89803916220000002" blue="0.89803916220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstItem="5dx-hz-9WK" firstAttribute="top" secondItem="JdL-5y-4ZK" secondAttribute="bottom" constant="15" id="1jh-a5-Vyp"/>
+                                <constraint firstItem="3Ct-6x-xuB" firstAttribute="top" secondItem="5dx-hz-9WK" secondAttribute="bottom" constant="8" id="3Lc-3s-wWa"/>
+                                <constraint firstItem="VRG-yj-DlA" firstAttribute="top" secondItem="5dx-hz-9WK" secondAttribute="bottom" constant="60" id="7Ow-xm-FdR"/>
+                                <constraint firstItem="VRG-yj-DlA" firstAttribute="top" secondItem="3Ct-6x-xuB" secondAttribute="bottom" constant="10" id="7gu-oO-ATO"/>
+                                <constraint firstItem="5dx-hz-9WK" firstAttribute="leading" secondItem="JIT-2S-nYU" secondAttribute="leading" constant="16" id="Llv-cr-lJB"/>
+                                <constraint firstAttribute="trailing" secondItem="5dx-hz-9WK" secondAttribute="trailing" constant="16" id="PgS-1j-Gqw"/>
+                                <constraint firstAttribute="trailing" secondItem="VRG-yj-DlA" secondAttribute="trailing" constant="16" id="UsY-ZH-PHd"/>
+                                <constraint firstAttribute="trailing" secondItem="JdL-5y-4ZK" secondAttribute="trailing" constant="16" id="dsc-LB-CbZ"/>
+                                <constraint firstItem="VRG-yj-DlA" firstAttribute="leading" secondItem="JIT-2S-nYU" secondAttribute="leading" constant="16" id="jZu-be-RD2"/>
+                                <constraint firstAttribute="bottom" secondItem="VRG-yj-DlA" secondAttribute="bottom" constant="15" id="uxR-b8-aUh"/>
+                                <constraint firstAttribute="trailing" secondItem="3Ct-6x-xuB" secondAttribute="trailing" constant="16" id="wVe-0X-uez"/>
+                                <constraint firstItem="JdL-5y-4ZK" firstAttribute="top" secondItem="JIT-2S-nYU" secondAttribute="top" constant="30" id="wX1-tZ-QW4"/>
+                                <constraint firstItem="JdL-5y-4ZK" firstAttribute="leading" secondItem="JIT-2S-nYU" secondAttribute="leading" constant="16" id="xxy-Ko-9Ry"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="JIT-2S-nYU" firstAttribute="leading" secondItem="A2X-uX-52Z" secondAttribute="leading" id="7yq-gl-0Pf"/>
+                        <constraint firstAttribute="bottom" secondItem="JIT-2S-nYU" secondAttribute="bottom" id="Ky8-VA-pq9"/>
+                        <constraint firstItem="JIT-2S-nYU" firstAttribute="top" secondItem="A2X-uX-52Z" secondAttribute="top" id="dRE-EL-Y05"/>
+                        <constraint firstAttribute="trailing" secondItem="JIT-2S-nYU" secondAttribute="trailing" id="uL8-Zp-Dag"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="solid"/>
+            <constraints>
+                <constraint firstItem="A2X-uX-52Z" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="0aw-7t-wpU"/>
+                <constraint firstItem="A2X-uX-52Z" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AEf-IB-goT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="A2X-uX-52Z" secondAttribute="bottom" id="E7E-Ec-LH1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="A2X-uX-52Z" secondAttribute="trailing" id="Qyo-Rb-Ude"/>
+                <constraint firstItem="JIT-2S-nYU" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="jKZ-1L-Wa0"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="98.4375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <namedColor name="solid">
+            <color red="0.89800000190734863" green="0.89800000190734863" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

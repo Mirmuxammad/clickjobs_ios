@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInVC" customModule="Clickjobs_New" customModuleProvider="target">
+            <connections>
+                <outlet property="addressField" destination="qxa-yu-ohA" id="9Tl-If-8k7"/>
+                <outlet property="companyNameField" destination="nwn-bx-xd3" id="tcS-BP-fHT"/>
+                <outlet property="emailField" destination="HWL-an-BXx" id="JzM-QE-ask"/>
+                <outlet property="firstNameField" destination="T6g-VR-qdV" id="KtJ-Ih-SSc"/>
+                <outlet property="lastNameField" destination="2hb-h4-ILk" id="iRF-GZ-qDk"/>
+                <outlet property="loginField" destination="f1m-mE-zuR" id="VcF-cD-jeL"/>
+                <outlet property="occupiedField" destination="5Ua-Vy-JlQ" id="fI5-E2-i0k"/>
+                <outlet property="passwordField" destination="x0q-Cj-g6s" id="iKJ-1R-Hcx"/>
+                <outlet property="phoneField" destination="yk3-nn-Zrx" id="e1P-2R-z1B"/>
+                <outlet property="scrollView" destination="wur-rs-sC7" id="WXJ-zs-x6X"/>
+                <outlet property="siginBtn" destination="yRB-SU-4fl" id="7Cr-Nq-URq"/>
+                <outlet property="tgField" destination="QA5-3f-yrH" id="YSA-IZ-KIN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wur-rs-sC7">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7s-3S-GNX">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="810"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Mry-Zr-WLQ">
+                                    <rect key="frame" x="16" y="32" width="382" height="748"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YKf-KC-Boy">
+                                            <rect key="frame" x="0.0" y="0.0" width="382" height="664"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T6g-VR-qdV" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="52"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="52" id="xTC-Ob-ecp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2hb-h4-ILk" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="68" width="382" height="52"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="52" id="8oj-MI-49K"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Are you occupied?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Ua-Vy-JlQ" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="136" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Company name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwn-bx-xd3" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="204" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yk3-nn-Zrx" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="272" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HWL-an-BXx" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="340" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Telegram username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QA5-3f-yrH" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="408" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Living address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qxa-yu-ohA" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="476" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Create login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f1m-mE-zuR" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="544" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x0q-Cj-g6s" customClass="GeneralTextField" customModule="Clickjobs_New" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="612" width="382" height="52"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRB-SU-4fl">
+                                            <rect key="frame" x="0.0" y="696" width="382" height="52"/>
+                                            <color key="backgroundColor" red="0.85490196939999996" green="0.33725491169999999" blue="0.32549020649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="52" id="KH6-kJ-JnX"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Register">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="btnTapped:" destination="-1" eventType="touchUpInside" id="EP1-P0-hob"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Mry-Zr-WLQ" secondAttribute="trailing" constant="16" id="3yW-hS-IdZ"/>
+                                <constraint firstItem="Mry-Zr-WLQ" firstAttribute="top" secondItem="y7s-3S-GNX" secondAttribute="top" constant="32" id="DnD-2t-QAx"/>
+                                <constraint firstItem="Mry-Zr-WLQ" firstAttribute="leading" secondItem="y7s-3S-GNX" secondAttribute="leading" constant="16" id="HIh-LB-OUl"/>
+                                <constraint firstItem="Mry-Zr-WLQ" firstAttribute="leading" secondItem="y7s-3S-GNX" secondAttribute="leading" constant="16" id="LwB-ar-3py"/>
+                                <constraint firstAttribute="trailing" secondItem="Mry-Zr-WLQ" secondAttribute="trailing" constant="16" id="lPR-V3-1Bz"/>
+                                <constraint firstAttribute="bottom" secondItem="Mry-Zr-WLQ" secondAttribute="bottom" constant="30" id="loQ-K6-pQ4"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="y7s-3S-GNX" firstAttribute="width" secondItem="wur-rs-sC7" secondAttribute="width" id="LIy-yD-tqX"/>
+                        <constraint firstAttribute="trailing" secondItem="y7s-3S-GNX" secondAttribute="trailing" id="hqM-K6-dP3"/>
+                        <constraint firstItem="y7s-3S-GNX" firstAttribute="leading" secondItem="wur-rs-sC7" secondAttribute="leading" id="hzJ-G7-2J2"/>
+                        <constraint firstItem="y7s-3S-GNX" firstAttribute="top" secondItem="wur-rs-sC7" secondAttribute="top" id="k2g-I4-Ws4"/>
+                        <constraint firstAttribute="bottom" secondItem="y7s-3S-GNX" secondAttribute="bottom" id="wz0-Vp-TJq"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="solid"/>
+            <constraints>
+                <constraint firstItem="wur-rs-sC7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DZL-8g-WsW"/>
+                <constraint firstAttribute="trailing" secondItem="wur-rs-sC7" secondAttribute="trailing" id="c4x-T0-hNK"/>
+                <constraint firstItem="wur-rs-sC7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="dxe-dx-Oi7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="wur-rs-sC7" secondAttribute="bottom" id="wSc-tx-sFP"/>
+            </constraints>
+            <point key="canvasLocation" x="133" y="110"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="solid">
+            <color red="0.89800000190734863" green="0.89800000190734863" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
